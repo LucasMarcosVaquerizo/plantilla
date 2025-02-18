@@ -24,19 +24,19 @@ def hanoi(n: int):
 #          TESTS             #
 ##############################
 
-def test_hanoi_3(benchmark):
+def tesst_hanoi_3(benchmark):
     resultado = benchmark(hanoi, 3)
     assert True
 
-def test_hanoi_10(benchmark):
+def tesst_hanoi_10(benchmark):
     resultado = benchmark(hanoi, 10)
     assert True
 
-def test_hanoi_20(benchmark):
+def tesst_hanoi_20(benchmark):
     resultado = benchmark(hanoi, 20)
     assert True
 
-def test_hanoi_50(benchmark):
+def tesst_hanoi_50(benchmark):
     resultado = benchmark(hanoi, 50)
     assert True
 
