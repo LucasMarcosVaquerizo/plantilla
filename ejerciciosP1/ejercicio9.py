@@ -3,7 +3,9 @@ def sumatorio(num: int) -> int:
     """O(1)"""
     if num < 0:
         return -1
-    return (num*(num+1))//2
+    if num == 1:
+        return 1
+    return num + sumatorio(num - 1)
 
 
 
