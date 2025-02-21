@@ -16,10 +16,8 @@ def esPerfecto(num: int) -> bool:
         i += 1
     return sumaLista(div) == num
 
-
-
 ##############################
-#          TESTS             #
+#          TESTS             
 ##############################
 
 def test_comprobar_perfecto_8128(benchmark):

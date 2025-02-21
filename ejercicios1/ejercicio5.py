@@ -11,11 +11,9 @@ def esPrimo (num: int) -> bool:
             return False
         i+=1
     return True
-        
-
 
 ##############################
-#          TESTS             #
+#          TESTS             
 ##############################
 
 def test_comprobar_primo_1000(benchmark):

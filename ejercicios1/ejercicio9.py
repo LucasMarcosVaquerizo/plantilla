@@ -6,8 +6,10 @@ def sumatorio(num: int) -> int:
     return (num*(num+1))//2
 
 
+
+
 ##############################
-#          TESTS             #
+#          TESTS             
 ##############################
 
 def test_comprobar_sumatorio_10000(benchmark):
