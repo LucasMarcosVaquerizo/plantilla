@@ -60,6 +60,8 @@ def kruskal(aristas :list, conjuntos :list) -> list:
             union(conjuntos, arista)
     return solucion
 
+
+
 # Programa
 ciudades = [{"Madrid"}, {"Segovia"}, {"Burgos"}, {"Cádiz"}, {"Valencia"}, {"Toledo"}, {"Barcelona"}, {"Vitoria"}]
 aristas = []
@@ -78,5 +80,8 @@ aristas.append(("Madrid", "Cádiz", 19000))
 
 
 arbol_expansion_minima = kruskal(aristas, ciudades)
+peso_total= 0
 for arista in arbol_expansion_minima:
     print(arista)
+    peso_total+=arista[2]
+print("coste total de la instalación: ", peso_total)
